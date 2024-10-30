@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>sign up</title>
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+
+    <section id="sign up">
+        <div class="container my-5 w-75 text-white text-center">
+            <div class="group m-auto w-75 p-5 shadow-lg">
+                <h1 class="text-info">Sign Up</h1>
+                <input id="signupName" class="form-control mt-3" placeholder="Enter your name" type="text">
+                <div class=" text-start d-none p-1 mt-1">
+                    <small>
+                        incorrect Name
+                        at least 3 character
+                    </small>
+                </div>
+                <div id="alertUsedName" class=" text-start d-none p-1 mt-1">
+                    <small>
+                        name already used
+                    </small>
+                </div>
+                <input id="signupEmail" class="form-control mt-3" placeholder="Enter your email" type="email">
+                <div class=" text-start d-none p-1 mt-1">
+                    <small>
+                        incorrect email
+                    </small>
+                </div>
+                <div id="alertUsedEmail" class=" text-start d-none p-1 mt-1">
+                    <small>
+                        email already used
+                    </small>
+                </div>
+                <input id="signupPassword" class="form-control mt-3 " placeholder="Enter  password" type="password">
+                <div class=" text-start d-none p-1 mt-1">
+                    <small>
+                        should be Strong password
+                        at least 5 character<br>
+                        should contians :<br>
+                        1- capital as (A)<br>
+                        2- small as (a)<br>
+                        3- number <br>
+                        4- one of {#?!@$ %^&*-}
+                    </small>
+                </div>
+                <h6 id="successSignIn" class="text-success mt-2 d-none">success sign up </h6>
+                <button id="btnSignUp" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-white">You have an account? <a class="text-info" href="index.html">Sign in</a></p>
+            </div>
+        </div>
+    </section>
+    <script>
+
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tools.js"></script>
+    <script src="js/sign_up.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+:root{
+    --bs-body-color: #fff;
+}
+body{
+    background-color: #24353f;
+}
+.form-control{
+    background-color:#24353f ;
+   color: var(--bs-body-color);
+}
+input::placeholder {
+    color: #999 !important;  
+}
+.form-control:focus {
+    background-color: transparent;
+}
+small{
+    color: #ef8981;
+}
